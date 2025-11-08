@@ -1,0 +1,14 @@
+{
+  "name": "telegram-info-bot",
+  "description": "Professional Telegram Info Bot for Railway",
+  "type": "project",
+  "require": {
+    "php": "^8.0",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-sqlite3": "*"
+  },
+  "scripts": {
+    "start": "php -S 0.0.0.0:$PORT telegram_bot.php"
+  }
+}
